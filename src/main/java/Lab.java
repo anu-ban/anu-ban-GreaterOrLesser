@@ -10,6 +10,19 @@ public class Lab {
      *          If neither is true, return "Equal". This problem is case-sensitive!
      */
     public String decide(int a, int b){
-        return "Equal";
+        String compare= "";
+        if(a<b)
+        {
+            compare="Lesser";
+
+        }
+        else if(a>b){
+            compare="Greater";
+        }
+        else{
+            compare="Equal";
+        }
+
+        return compare;
     }
 }
